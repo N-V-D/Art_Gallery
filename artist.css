@@ -1,0 +1,183 @@
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+    
+}
+body {
+    background-image: url('artist.jpg');
+    background-size: cover;
+    /* position: relative; */
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+  /* position: fixed;
+  width: 1496px;
+  top: 0px;
+  padding: 1em; */
+    background:linear-gradient(to right, #000000,#1b1919a8,#000000) ;
+    color: #fff;
+    padding: 4.5px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    /* background-color: #333; */
+    /* color: #fff; */
+    text-align: center;
+    /* z-index: 1; */
+    padding: 20px;
+}
+
+/* Style the h1 tag in the header */
+header h1 {
+    font-size: 36px;
+}
+
+.header-menu {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    /* background-color: #333; Background color for the header menu */
+    display: flex; /* Make the menu items horizontal */
+    justify-self: center;
+    justify-content: center;
+}
+
+.header-menu li {
+    margin: 15px ; /* Add spacing between menu items */
+    padding-top: 10px;
+    
+}
+
+.header-menu a {
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+
+/* Style for the link when hovered */
+.header-menu a:hover {
+   color: orange;
+}
+
+
+section {
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background:linear-gradient(to top, black,#0000009a) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+
+
+section:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #c9c9c9;
+}
+
+p {
+    color: #ffffff;
+}
+
+img {
+  width: 30%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  img {
+      min-width: 50%; /* Adjust the size for mobile view */
+      max-width: 70%;
+      height: auto; /* Make the height auto for better responsiveness */
+  }
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #ff6600;
+}
+
+.main{
+   /* position:absolute; */
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   /* left: 69vh ; */
+
+   
+
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+footer {
+    background: linear-gradient(to right, #000000, #2422227b, #000000);
+    color: white;
+    padding: 2px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Make it responsive */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  
+  footer p {
+    color: white;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Styles for screens with a width of 768px or less (e.g., mobile devices) */
+  }
+  @media screen and (min-width: 769px) {
+    /* Styles for screens with a width of 769px or more (e.g., tablets and desktops) */
+  }
+  
+  
+
+  
+
+

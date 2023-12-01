@@ -1,0 +1,179 @@
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    overflow-y: scroll;
+    font-family: 'Amatic SC', sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    
+    background:linear-gradient(to right, #000000,#0b0b0bbd,#000000) ;
+    color: #fff;
+    padding: 4.5px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.text{
+    text-shadow: 1px 2px 20px rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+.hero {
+    /* background-image: url('main.jpg');
+    background-size: cover; */
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh; /* This centers vertically within the viewport */
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* height: auto; */
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  .button {
+    width: 120px;
+    height: 90px;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px;
+    cursor: pointer;
+    outline: 0px;
+    padding: 0 2px;
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .backdrop {
+    position: absolute;
+    width: 118px;
+    height: 80px;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.692),rgba(255, 255, 255, 0.705));
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all ease-in-out 0.5s;
+  }
+  
+  .button:hover + .backdrop {
+    top: 48%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: rotate(15deg) translateX(-50%) translateY(-50%);
+  }
+  
+  .button:active,.button:active +.backdrop {
+    box-shadow: none;
+  }
+
+/* Gallery Section */
+#gallery {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/* Footer */
+footer {
+    background:linear-gradient(to right, #000000,#0b0b0bb9,#000000) ;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 0px 0;
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.397);
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens with a width of 768px or less (e.g., mobile devices) */
+  }
+  @media screen and (min-width: 769px) {
+    /* Styles for screens with a width of 769px or more (e.g., tablets and desktops) */
+  }
+  
+/* Add gradient background to specific sections */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('main.jpg');
+}
+
+/* Additional styling can be added as needed */

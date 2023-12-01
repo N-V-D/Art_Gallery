@@ -1,0 +1,152 @@
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    overflow-y: scroll;
+    background-image: url('new.jpg');
+    font-family: 'Amatic SC', sans-serif;
+    background-size: cover;
+    background-position: center;
+    /* color: #131212; */
+    /* background:linear-gradient(to left,rgb(0, 0, 0),rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774),rgb(0, 0, 0)); */
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+  /* position: fixed;
+  width: 1496px;
+  top: 0px;
+  padding: 1em; */
+  background:linear-gradient(to right, #000000,#010101a8,#000000) ;
+    color: #fff;
+    padding: 4.5px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    /* background-color: #333; */
+    /* color: #fff; */
+    text-align: center;
+    /* z-index: 1; */
+    padding: 20px;
+}
+
+/* Style the h1 tag in the header */
+header h1 {
+    font-size: 36px;
+}
+
+.header-menu {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    /* background-color: #333; Background color for the header menu */
+    display: flex; /* Make the menu items horizontal */
+    justify-self: center;
+    justify-content: center;
+}
+
+.header-menu li {
+    margin: 15px ; /* Add spacing between menu items */
+    padding-top: 10px;
+    
+}
+
+.header-menu a {
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+
+/* Style for the link when hovered */
+.header-menu a:hover {
+   color: orange;
+}
+
+.gallery-link {
+  text-decoration: none;
+  /* Add a text shadow with blur */
+  text-shadow: 3px 5px 10px rgb(255, 255, 255);
+  
+  /* Apply backdrop filter for blur */
+  webkit-backdrop-filter: blur(10px);
+}
+
+
+
+.art-gallery {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 60px 5px 40px 0px ;
+  overflow: hidden;
+}
+
+.gallery-item {
+  
+  z-index: 0;
+  width: 50vh;
+  height: 50vh;
+  /* background-color: #eeeeee82; */
+  border-radius: 10%;
+  margin: 25px;
+  border: 1px solid #dddddd12;
+  box-shadow: 5px 2px 30px #000000e3;
+  background-size: cover;
+  background-position: center;
+  /* Additional styles for transition */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  /* opacity: 0.8; */
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 7px 15px  rgba(0, 0, 0, 0.699);
+}
+
+
+
+
+#drawing-section {
+  background-image: url('sketch..jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#photo-section {
+  background-image: url('photo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+
+
+footer {
+  background: linear-gradient(to right, #000000, #0b0b0ba0, #000000);
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative; 
+  bottom: -35px;
+  width: 100%;
+}
+
+
+
+footer p {
+    font-size: 14px;
+}

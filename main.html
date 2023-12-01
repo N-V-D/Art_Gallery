@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Art Gallery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1><p class="text">Gallery Of N</p></h1>
+                <ul>
+                    <li><a href="artist.html">Artist</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            
+            <h2>Welcome to My Gallery</h2>
+            <p>Explore exquisite artworks & Photographs</p>
+            <div class="center-container">
+                
+                <div class="button" onclick="navigateToGallery()">
+                    <button class="button">
+                        View Gallery!
+                    </button>
+                    <span class="backdrop"></span>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Gallery Of N</p>
+        </div>
+    </footer>
+    <script>
+        function navigateToGallery() {
+            // console.log("Function called!");
+            window.location.href = "gallery.html"; // Example URL
+        }
+        </script>
+        
+   
+</body>
+</html>

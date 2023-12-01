@@ -1,0 +1,339 @@
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    overflow-y: scroll;
+    /* background-image: url('bg.jpg'); */
+    font-family: 'Amatic SC', sans-serif;
+    /* color: #131212; */
+    background:linear-gradient(to left,rgb(0, 0, 0),rgba(0, 0, 0, 0.795),rgba(43, 39, 39, 0.795),rgb(0, 0, 0));
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+  /* position: fixed;
+  width: 1496px;
+  top: 0px;
+  padding: 1em; */
+    background:linear-gradient(to right, #000000,#1b1919,#000000) ;
+    color: #fff;
+    padding: 4.5px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    /* background-color: #333; */
+    /* color: #fff; */
+    text-align: center;
+    /* z-index: 1; */
+    padding: 20px;
+}
+
+/* Style the h1 tag in the header */
+header h1 {
+    font-size: 36px;
+}
+
+.header-menu {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    /* background-color: #333; Background color for the header menu */
+    display: flex; /* Make the menu items horizontal */
+    justify-self: center;
+    justify-content: center;
+}
+
+.header-menu li {
+    margin: 15px ; /* Add spacing between menu items */
+    padding-top: 10px;
+    
+}
+
+.header-menu a {
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+
+/* Style for the link when hovered */
+.header-menu a:hover {
+   color: orange;
+}
+
+
+
+
+.gallery {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 25px ;
+  overflow: hidden;
+}
+
+.artwork {
+  
+  z-index: 0;
+  width: 50vh;
+  height: 50vh;
+  /* background-color: #eeeeee82; */
+  border-radius: 10%;
+  margin: 25px;
+  border: 1px solid #dddddd12;
+  box-shadow: 1px 2px 24px 7px #000000e3;
+  background-size: cover;
+  background-position: center;
+  /* Additional styles for transition */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  /* opacity: 0.8; */
+}
+
+#artwork1 {
+  background-image: url('s8.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork2 {
+  background-image: url('s9.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork3 {
+  background-image: url('s16.jpeg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#artwork4 {
+  background-image: url('s11.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork5 {
+  background-image: url('s14.jpeg');
+
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork6 {
+    background-image: url('s15.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork7 {
+  background-image: url('new3.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork8 {
+  background-image: url('s28.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork9 {
+  background-image: url('s13.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork10 {
+  background-image: url('s17.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork11 {
+  background-image: url('s18.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork12 {
+  background-image: url('s19.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork13 {
+  background-image: url('s20.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork14 {
+  background-image: url('s21.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork15 {
+  background-image: url('s22.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork16 {
+  background-image: url('s23.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork17 {
+  background-image: url('s24.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork18 {
+  background-image: url('s25.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork19 {
+  background-image: url('s26.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork20{ 
+  background-image: url('s27.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork21 {
+  background-image: url('bird.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork22{
+  background-image: url('s1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork23 {
+  background-image: url('s2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork24 {
+  background-image: url('s3.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+#artwork25 {
+  background-image: url('s4.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork26 {
+  background-image: url('s5.jpeg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* #artwork27 {
+  background-image: url('s6.jpeg');
+  background-size: cover;
+  background-position: center;
+} */
+
+/* #artwork28 {
+  background-image: url('s7.jpeg');
+  background-size: cover;
+  background-position: center;
+} */
+
+#artwork29 {
+  background-image: url('new1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork30 {
+  background-image: url('new2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork31 {
+  background-image: url('new.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#artwork32 {
+  background-image: url('s12.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.artwork:hover {
+  /* opacity: 1; */
+  transform: scale(1.1);
+  /* Add more animation properties as needed */
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0062ffce;
+  box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.263);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens with a width of 768px or less (e.g., mobile devices) */
+}
+@media screen and (min-width: 769px) {
+  /* Styles for screens with a width of 769px or more (e.g., tablets and desktops) */
+}
+
+/* Style the footer */
+footer {
+  background: linear-gradient(to right, #000000, #0b0b0ba0, #000000);
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative; /* Fixed position to keep it at the bottom */
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Style the copyright text in the footer */
+footer p {
+    font-size: 14px;
+}
+
+/* 
+.image:hover {
+    transform: scale(1.05); 
+    opacity: 1; 
+}
+
+.image:hover img {
+    transform: scale(1); 
+    opacity: 2; 
+} */

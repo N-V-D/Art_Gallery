@@ -1,0 +1,184 @@
+/* CSS with responsiveness for small screens */
+
+/* Remove default scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  /* Reset some default styles for better consistency */
+  body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    overflow-y: scroll;
+    font-family: 'Amatic SC', sans-serif;
+    line-height: 1.6;
+  }
+
+  
+  
+  /* Style the header */
+  .header-menu {
+    background: linear-gradient(to right, #000000, #1212125b, #000000);
+    color: #000000;
+    padding: 4.5px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Style the h1 tag in the header */
+  header h1 {
+    font-size: 36px;
+  }
+  
+  /* Style for the header menu */
+  .header-menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for menu items */
+  .header-menu li {
+    margin: 15px;
+    padding-top: 10px;
+  }
+  
+  /* Style for menu links */
+  .header-menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style for the link when hovered */
+  .header-menu a:hover {
+    color: orange;
+  }
+  
+  /* Main content section */
+  .main1 {
+    width: 90%; /* Make it full width for responsiveness */
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(to top, #0000008a, #000000c2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.642);
+    border-radius: 2%;
+    transition: ease-in-out 1s; /* Correct the transition syntax */
+    /* text-shadow: 3px 5px 10px rgb(255, 255, 255); */
+  }
+
+  
+    @media screen and (min-width: 769px) {
+      /* Styles for screens with a width of 769px or more (e.g., tablets and desktops) */
+    }
+  
+  
+  /* .main1:hover {
+    opacity: 1;
+    background: linear-gradient(to top, #07232878, #a774ff7b, #52023680);
+    max-width: 100%; /* Make it full width on hover */
+    /* transform: scale(1.05);
+    transition: 0.8s;
+    border-radius: 7%;
+  } */ 
+  
+  /* About section styles */
+  .about-section {
+    text-align: justify;
+  }
+  
+  .about-point {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for headings and paragraphs */
+  h2, h3 {
+    color: #f2ff00b9;
+  }
+  
+  p {
+    color: #ffffff;
+    line-height: 1.6;
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: linear-gradient(to right, #000000, #21212124, #000000);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative; /* Fixed position to keep it at the bottom */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Styles for screens with a width of 768px or less (e.g., mobile devices) */
+    body {
+      font-size: 16px; /* Adjust font size for better mobile readability */
+    }
+  
+    .header-menu {
+      padding: 2.5px 0; /* Reduce header menu padding */
+    }
+  
+    header h1 {
+      font-size: 24px; /* Adjust header font size for mobile */
+    }
+  
+    .main1 {
+      margin: 10px auto; /* Adjust margin for mobile */
+      padding: 5px; /* Reduce main content padding */
+      border-radius: 5%;
+    }
+  
+    .about-point {
+      margin-bottom: 10px;
+    }
+  
+    h2, h3 {
+      font-size: 24px; /* Adjust font size for headings on mobile */
+    }
+  
+    p {
+      font-size: 14px; /* Adjust font size for paragraphs on mobile */
+    }
+  
+    footer {
+      background: linear-gradient(to right, #000000, #2422227b, #000000);
+      color: white;
+      padding: 2px 0;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    /* Make it responsive */
+    @media (max-width: 768px) {
+      .footer {
+        font-size: 14px; /* Adjust font size for smaller screens */
+      }
+    }
+    
+    
+    footer p {
+      color: white;
+      font-size: 14px;
+    }
+    
+  }
