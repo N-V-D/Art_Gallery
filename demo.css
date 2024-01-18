@@ -1,0 +1,742 @@
+
+#artwork1 {
+    background-image: url('a.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork2 {
+    background-image: url('b.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork3 {
+    background-image: url('c.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork4 {
+    background-image: url('d.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork5 {
+    background-image: url('e.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork6 {
+    background-image: url('f.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork7 {
+    background-image: url('g.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork8 {
+    background-image: url('h.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork9 {
+    background-image: url('i.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork10 {
+    background-image: url('j.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork11 {
+    background-image: url('k.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork12 {
+    background-image: url('l.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork13 {
+    background-image: url('m.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork14 {
+    background-image: url('n.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork15 {
+    background-image: url('o.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork16 {
+    background-image: url('p.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork17 {
+    background-image: url('q.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork18 {
+    background-image: url('r.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork19 {
+    background-image: url('s.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork20{ 
+    background-image: url('t.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork21 {
+    background-image: url('u.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork22{
+    background-image: url('v.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork23 {
+    background-image: url('w.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork24 {
+    background-image: url('x.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork25 {
+    background-image: url('y.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork26 {
+    background-image: url('z.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork27 {
+    background-image: url('a1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork28 {
+    background-image: url('b1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork29 {
+    background-image: url('c1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork30 {
+    background-image: url('d1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork31 {
+    background-image: url('e1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork32{
+    background-image: url('f1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork33 {
+    background-image: url('g1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork34 {
+    background-image: url('h1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork35 {
+    background-image: url('i1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork36 {
+    background-image: url('j1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork37 {
+    background-image: url('k1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork38 {
+    background-image: url('l1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork39 {
+    background-image: url('m1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork40 {
+    background-image: url('n1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork41 {
+    background-image: url('o1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork42 {
+    background-image: url('p1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork44 {
+    background-image: url('r1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork46 { 
+    background-image: url('t1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork47 {
+    background-image: url('u1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork48 {
+    background-image: url('v1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork50 {
+    background-image: url('x1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork51 {
+    background-image: url('y1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork52{
+    background-image: url('z1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork54 {
+    background-image: url('a11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork55 {
+    background-image: url('b11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork56 {
+    background-image: url('c11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork59 {
+    background-image: url('d11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork60 {
+    background-image: url('e11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  #artwork61 {
+    background-image: url('f11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork62 { 
+    background-image: url('g11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork65 {
+    background-image: url('i11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork66 {
+    background-image: url('j11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork67 {
+    background-image: url('add.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork68 {
+    background-image: url('artwork1.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork69 {
+    background-image: url('artwork2.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork70 {
+    background-image: url('artwork3.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork71 {
+    background-image: url('artwork7.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork72 {
+    background-image: url('artwork8.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork73 {
+    background-image: url('artwork9.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork74 {
+    background-image: url('artwork10.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork75 {
+    background-image: url('artwork11.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork76 {
+    background-image: url('artwork12.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork77 {
+    background-image: url('artwork13.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork78 {
+    background-image: url('artwork14.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork79 {
+    background-image: url('artwork15.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork80 {
+    background-image: url('artwork16.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork81 {
+    background-image: url('artwork17.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork82 {
+    background-image: url('artwork18.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork83 {
+    background-image: url('artwork19.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork84 {
+    background-image: url('artwork20.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork85 {
+    background-image: url('artwork21.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork86 {
+    background-image: url('artwork22.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork87 {
+    background-image: url('artwork23.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork88 {
+    background-image: url('artwork24.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork89 {
+    background-image: url('artwork25.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork90 {
+    background-image: url('artwork26.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork91 {
+    background-image: url('artwork27.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork92 {
+    background-image: url('artwork28.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork93 {
+    background-image: url('artwork29.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork94 {
+    background-image: url('artwork30.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork95 {
+    background-image: url('artwork31.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork96 {
+    background-image: url('artwork32.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork97 {
+    background-image: url('artwork33.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork98 {
+    background-image: url('artwork34.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork99 {
+    background-image: url('artwork35.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork100 {
+    background-image: url('artwork36.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork101 {
+    background-image: url('artwork37.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork102 {
+    background-image: url('artwork38.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork103 {
+    background-image: url('artwork39.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork104 {
+    background-image: url('artwork40.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork105 {
+    background-image: url('artwork41.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork106 {
+    background-image: url('artwork42.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork107 {
+    background-image: url('artwork43.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork108 {
+    background-image: url('artwork44.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork109 {
+    background-image: url('artwork45.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork110 {
+    background-image: url('artwork46.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork111 {
+    background-image: url('artwork47.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork112 {
+    background-image: url('artwork48.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork113 {
+    background-image: url('artwork49.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork114 {
+    background-image: url('artwork50.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork115 {
+    background-image: url('artwork51.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork116 {
+    background-image: url('artwork52.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork117 {
+    background-image: url('artwork53.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork118 {
+    background-image: url('artwork54.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* 
+  #artwork119 {
+    background-image: url('artwork55.jpeg');
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  
+  #artwork120 {
+    background-image: url('artwork56.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork121 {
+    background-image: url('artwork57.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork122 {
+    background-image: url('artwork58.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork123 {
+    background-image: url('artwork59.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork124 {
+    background-image: url('artwork6.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #artwork125 {
+    background-image: url('artwork5.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  #artwork126 {
+    background-image: url('artwork4.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
