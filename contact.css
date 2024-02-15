@@ -65,7 +65,6 @@ header h1 {
   width: 50vh;
   height: 50vh;
   margin: 20px auto;
-  padding: 20px;
   background:linear-gradient(to top, black,#00000069) ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
