@@ -1,183 +1,268 @@
-/* Define general styles outside media queries */
-
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     height: 0;
     width: 0;
+    
 }
-
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #121212;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    background: url('contact.jpg');
-    background-size: cover;
-    background-position: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  /* display: grid; */
+  padding: 0;
+  background: url('contact.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 header {
-    background: linear-gradient(to right, #000000, #0000007b, #000000);
-    color: #fff;
-    padding: 4.5px 0;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #000000, #0000007b, #000000);
+  color: #fff;
+  padding: 4.5px 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .header-menu {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .header-menu li {
-    margin: 15px;
-    padding-top: 10px;
+  margin: 15px;
+  padding-top: 10px;
 }
 
 .header-menu a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 .header-menu a:hover {
-    color: orange;
+  color: orange;
 }
 
 .social-icon {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
 }
-
-.container h1 {
-    text-shadow: 3px 5px 20px rgb(0, 0, 0);
-    /* Apply backdrop filter for blur */
-    webkit-backdrop-filter: blur(10px);
+.container h1{
+  text-shadow: 3px 5px 20px rgb(0, 0, 0);
+  
+  /* Apply backdrop filter for blur */
+  webkit-backdrop-filter: blur(10px);
 }
-
 .container {
-    border-radius: 50px;
-    width: 50vh;
-    height: 50vh;
-    margin: 20px auto;
-    padding: 20px;
-    background: linear-gradient(to top, black, #00000069);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+  /* max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #000000ae;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.484);
+  border-radius: 15px; */
+  border-radius: 50px;
+  width: 50vh;
+  height: 50vh;
+  margin: 20px auto;
+  padding: 20px;
+  background:linear-gradient(to top, black,#00000069) ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 20px; 
+  }
+}
+
 
 h1 {
-    color: #008df9;
-    text-shadow: 1px 3px 30px #000000;
+  color: #008df9;
+  text-shadow: 1px 3px 30px #000000;
 }
 
 p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 ul {
-    list-style: none;
-    padding: 1px;
-    margin: auto;
+  list-style: none;
+  padding: 1px;
+  margin: auto;
 }
 
 li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .sm li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 a {
-    color: #4caf50;
-    text-decoration: none;
-    transition: color 0.3s;
+  color: #4caf50;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 a:hover {
-    color: #f44336;
-    text-decoration: underline;
+  color: #f44336;
+  text-decoration: underline;
 }
-
-.all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button {
-    text-align: center;
-}
-
-button:hover {
-    background-color: #008080;
-}
-
-footer {
-    background: linear-gradient(to right, #000000, #2422227b, #000000);
-    color: white;
-    padding: 2px 0;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    color: white;
-    font-size: 14px;
-}
-
-/* Media Queries for Responsiveness */
-
-@media screen and (max-width: 768px) {
-    /* Adjustments for screens up to 768px wide */
-    .container {
-        margin: 20px;
-        border-radius: 25px;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    .header-menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-menu li {
-        margin: 10px;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
+/* button {
+  padding: 15px 25px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  -webkit-user-select: none;
+  background:linear-gradient(to left, black,rgba(0, 0, 0, 0.548),black);
+  
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {
-    /* Adjustments for screens up to 600px wide */
-    .btn1 {
-        height: auto;
-    }
+  button {
+      font-size: 14px; 
+  }
+}
 
-    button {
-        font-size: 14px;
-        padding: 12px 20px;
-    }
+
+
+
+#btn:hover,:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff,
+              0 0 20px #008cff,
+              0 0 50px #008cff,
+              0 0 100px #008cff;
+} */
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Adjust as needed for the desired height */
+}
+
+.button {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #008080;
+}
+
+@media screen and (max-width: 600px) {
+  .btn1 {
+      height: auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
+@media screen and (min-width: 769px) {
+  /* Add styles for larger screens here */
+}
+
+footer {
+  background: linear-gradient(to right, #000000, #2422227b, #000000);
+  color: white;
+  padding: 2px 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+
+
+/* Add responsive styles for the container */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 20px; /* Adjust margin for smaller screens */
+    border-radius: 25px; /* Adjust border radius for smaller screens */
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 12px 20px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+  header h1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .header-menu {
+    flex-direction: column; /* Display menu items in a column for smaller screens */
+    align-items: center; /* Center align menu items */
+  }
+
+  .header-menu li {
+    margin: 10px;
+  }
+
+  footer p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* Add styles for larger screens here */
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  footer {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
 }
