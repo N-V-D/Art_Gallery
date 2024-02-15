@@ -61,12 +61,6 @@ header h1 {
   webkit-backdrop-filter: blur(10px);
 }
 .container {
-  /* max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #000000ae;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.484);
-  border-radius: 15px; */
   border-radius: 50px;
   width: 50vh;
   height: 50vh;
@@ -118,72 +112,13 @@ a:hover {
   color: #f44336;
   text-decoration: underline;
 }
-/* button {
-  padding: 15px 25px;
-  text-transform: uppercase;
-  border-radius: 8px;
-  font-size: 17px;
-  font-weight: 500;
-  color: #ffffff80;
-  text-shadow: none;
-  background: transparent;
-  box-shadow: none;
-  border: 1px solid #ffffff80;
-  transition: 0.5s ease;
-  -webkit-user-select: none;
-  background:linear-gradient(to left, black,rgba(0, 0, 0, 0.548),black);
-  
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 600px) {
-  button {
-      font-size: 14px; 
-  }
-}
 
 
-
-
-#btn:hover,:focus {
-  color: #ffffff;
-  background: #008cff;
-  border: 1px solid #008cff;
-  text-shadow: 0 0 5px #ffffff,
-              0 0 10px #ffffff,
-              0 0 20px #ffffff;
-  box-shadow: 0 0 5px #008cff,
-              0 0 20px #008cff,
-              0 0 50px #008cff,
-              0 0 100px #008cff;
-} */
-
-.all {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.btn1 {
-  display: flex;
+.all{
+  display: grid;
   justify-content: center;
-  align-items: center;
-   /* Adjust as needed for the desired height */
 }
 
-.button {
-  text-align: center;
-}
-
-button:hover {
-  background-color: #008080;
-}
-
-@media screen and (max-width: 600px) {
-  .btn1 {
-      height: auto;
-  }
-}
 
 
 @media screen and (max-width: 768px) {
