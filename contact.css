@@ -8,11 +8,6 @@ body {
   background-color: #121212;
   color: #fff;
   margin: 0;
-  /* display: grid; */
-  padding: 0;
-  background: url('contact.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 header {
